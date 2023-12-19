@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>p_builder</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>p-builder</ToolCommandName>
+	<PackageOutputPath>./pkg</PackageOutputPath>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
