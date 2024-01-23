@@ -19,7 +19,7 @@ dotnet pack
 dotnet tool install --global --add-source .\pkg\ p-builder
 ```
 
-Do not forget to add these tagsto your `.csproj` file:
+Do not forget to add these to `PropertGroup` in `.csproj` file:
 
 ```
 <PackAsTool>true</PackAsTool>
