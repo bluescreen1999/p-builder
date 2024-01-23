@@ -18,3 +18,11 @@ cd src/p-builder/
 dotnet pack
 dotnet tool install --global --add-source .\pkg\ p-builder
 ```
+
+Do not forget to add these tagsto your `.csproj` file:
+
+```
+<PackAsTool>true</PackAsTool>
+<ToolCommandName>p-builder</ToolCommandName>
+<PackageOutputPath>./pkg</PackageOutputPath>
+```
